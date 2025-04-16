@@ -9,6 +9,10 @@
         "-g",
         "C:\\Users\\pierr\\OneDrive - De Vinci\\A3\\S2\\C++\\Projet\\simulateur_pokemon\\main.cpp",
         "C:\\Users\\pierr\\OneDrive - De Vinci\\A3\\S2\\C++\\Projet\\simulateur_pokemon\\import\\import.cpp",
+        "C:\\Users\\pierr\\OneDrive - De Vinci\\A3\\S2\\C++\\Projet\\simulateur_pokemon\\Pokemon\\Pokemon.cpp",
+        "C:\\Users\\pierr\\OneDrive - De Vinci\\A3\\S2\\C++\\Projet\\simulateur_pokemon\\types\\Eau\\Eau.cpp",
+        "C:\\Users\\pierr\\OneDrive - De Vinci\\A3\\S2\\C++\\Projet\\simulateur_pokemon\\types\\Feu\\Feu.cpp",
+        "C:\\Users\\pierr\\OneDrive - De Vinci\\A3\\S2\\C++\\Projet\\simulateur_pokemon\\types\\Plante\\Plante.cpp",
         "-o",
         "C:\\Users\\pierr\\OneDrive - De Vinci\\A3\\S2\\C++\\Projet\\simulateur_pokemon\\main.exe"
       ],

@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Exécuter simulateur_pokemon",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "C:/Users/pierr/OneDrive - De Vinci/A3/S2/C++/Projet/simulateur_pokemon/main.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+      "preLaunchTask": "C/C++: g++.exe build active file"
+    }
+  ]
+}
