@@ -30,13 +30,13 @@ Télécharger le projet en `.zip` directement depuis le [repository GitHub](http
 - **Linux :**
 
 ```bash
-g++ -o main.out main.cpp
+g++ -o main.out main.cpp import\import.cpp menu\menu.cpp Pokemon\Pokemon.cpp Entraineur\Entraineur.cpp Entraineur\Joueur\Joueur.cpp Entraineur\Leader\Leader.cpp Entraineur\Maitre\Maitre.cpp
 ```
 
 - **Windows :**
 
 ```bash
-g++ -o main.exe main.cpp
+g++ -o main.exe main.cpp import\import.cpp menu\menu.cpp Pokemon\Pokemon.cpp Entraineur\Entraineur.cpp Entraineur\Joueur\Joueur.cpp Entraineur\Leader\Leader.cpp Entraineur\Maitre\Maitre.cpp
 ```
 
 ---
