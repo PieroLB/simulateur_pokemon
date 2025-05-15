@@ -1,6 +1,9 @@
+---
 
 ```markdown
 # 🐱‍👤 Simulateur de Combats Pokémon
+
+Un projet en C++ simulant des combats Pokémon avec menus interactifs et système d'importation depuis des fichiers CSV.
 
 ## 📦 Téléchargement du Projet
 
