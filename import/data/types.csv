@@ -1,4 +1,5 @@
 nom,faiblesse,resistance
+Normal, , 
 Feu,Eau/Roche/Sol,Plante/Glace/Insecte/Acier/Fée
 Eau,Plante/Électrik,Feu/Eau/Glace/Acier
 Plante,Feu/Glace/Poison/Vol/Insecte,Eau/Sol/Roche

@@ -1,24 +1,26 @@
 #ifndef JOUEUR_H
 #define JOUEUR_H
 
-#include "../entraineur.h"
+#include "../Entraineur.h"
+#include <string>
 
 using namespace std;
 
 class Joueur : public Entraineur {
 private:
-    int badges;
-    int wins;
-    int losses;
+    vector<string> badges;
+    int nWins;
+    int nLosses;
+    vector<Entraineur*> entraineursVaincus;
 
 public:
-    Joueur(string name);
-    void winCombat();
-    void loseCombat();
-    void addBadge();
-    int getBadges() const;
-    int getWins() const;
-    int getLosses() const;
+    Joueur(string name, Pokemon* listPokemons[6]);
+    ~Joueur();
+    static vector<Joueur*> allJoueurs;
+    void afficher() override;
+    void combattre(Entraineur* entraineur);
+    bool hasAllBadges();
+    vector<Entraineur*> getEntraineursVaincus();
 };
 
 #endif

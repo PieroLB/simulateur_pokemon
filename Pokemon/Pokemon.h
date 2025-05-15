@@ -4,24 +4,43 @@
 
 #include <string>
 #include <vector>
+#include "../Interagir/Interagir.h"
+
 using namespace std;
 
-class Pokemon {
+
+class Pokemon : public Interagir {
 protected:
     string name;
-    vector<string> types;
+    string type1;
+    string type2;
+    int maxHP;
     int hp;
     string attaque;
     int puissance;
+    string messageInteraction;
 
 public:
-    Pokemon(string name, vector<string> types, int hp, string attaque, int puissance);
+    Pokemon(string name, string type1, string type2, int hp, string attaque, int puissance, string msgInteraction = "...");
+    Pokemon(const Pokemon& p); 
     virtual ~Pokemon();
+
+    static vector<Pokemon*> allPokemons;
 
     string getName() const;
     int getHP() const;
+    string getAttaque() const;
+    int getPuissance() const;
     virtual void afficher() const;
-    int calculerDegats(const string& typeAttaque, int puissanceAttaque) const;
+    float getCoefAttaque(Pokemon* opposant) const; 
+    void damage(float degat);
+    void soigner();
+    string interagir() const override;
+    bool operator ==(int value);
+    bool operator >(int value);
+    bool operator <(int value);
+    bool operator >=(int value);
+    bool operator <=(int value);
 };
 
 #endif

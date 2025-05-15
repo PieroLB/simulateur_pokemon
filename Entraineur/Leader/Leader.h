@@ -1,19 +1,22 @@
-#ifndef LEADER_H
+    #ifndef LEADER_H
 #define LEADER_H
 
-#include "../entraineur.h"
+#include "../Entraineur.h"
 
 using namespace std;
 
 class Leader : public Entraineur {
 private:
     string badge;
-    string gym;
+    string gymnase;
 
 public:
-    Leader(string name, string badge, string gym);
+    Leader(string name, string gymnase, string medaille, Pokemon* listPokemons[6]);
+    ~Leader();
+    void afficher() override;
+    static vector<Leader*> allLeaders; 
     string getBadge() const;
-    string getGym() const;
+    string getGymnase() const;
 };
 
 #endif

@@ -1,16 +1,28 @@
-#include "leader.h"
+#include "Leader.h"
+#include "../Entraineur.h"
 
 using namespace std;
 
-Leader::Leader(string name, string badge, string gym) : Entraineur(name) {
+vector<Leader*> Leader::allLeaders;
+
+Leader::Leader(string name, string gymnase, string badge, Pokemon* listPokemons[6]) : Entraineur(name, listPokemons) {
     this->badge = badge;
-    this->gym = gym;
+    this->gymnase = gymnase;
+
+    Leader::allLeaders.push_back(this);
 }
+
+void Leader::afficher() {
+    Entraineur::afficher();
+}
+
+
+Leader::~Leader(){}
 
 string Leader::getBadge() const {
     return badge;
 }
 
-string Leader::getGym() const {
-    return gym;
+string Leader::getGymnase() const {
+    return gymnase;
 }
