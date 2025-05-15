@@ -85,14 +85,6 @@ g++ -o main.exe main.cpp import\import.cpp menu\menu.cpp Pokemon\Pokemon.cpp Ent
 
 ---
 
-## 👨‍💻 Dépendances
-
-- Aucune dépendance externe.
-- Utilise `ncurses` pour Linux (nécessite `sudo apt install libncurses5-dev`).
-- Compatible Windows avec `<conio.h>`.
-
----
-
 ## UML
 
 ![uml](https://github.com/user-attachments/assets/10d5412d-b3b6-4ade-b195-a531a8fb68a3)
