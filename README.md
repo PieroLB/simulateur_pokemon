@@ -1,6 +1,3 @@
----
-
-```markdown
 # 🐱‍👤 Simulateur de Combats Pokémon
 
 Un projet en C++ simulant des combats Pokémon avec menus interactifs et système d'importation depuis des fichiers CSV.
@@ -99,6 +96,3 @@ g++ -o main.exe main.cpp
 ## 📜 Licence
 
 Projet éducatif développé dans le cadre d’un module C++ à l’ESILV. Libre d’utilisation pour tout usage pédagogique.
-
----
-```
