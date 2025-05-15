@@ -93,6 +93,12 @@ g++ -o main.exe main.cpp
 
 ---
 
+## UML
+
+![uml](https://github.com/user-attachments/assets/10d5412d-b3b6-4ade-b195-a531a8fb68a3)
+
+---
+
 ## 📜 Licence
 
 Projet éducatif développé dans le cadre d’un module C++ à l’ESILV. Libre d’utilisation pour tout usage pédagogique.
